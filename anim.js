@@ -4,7 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Well, you done done me in, you bet I felt it", time: 10 },
+{ text: "Well, you done done me in, you bet I felt it", time: 10 },
   { text: "I tried to be chill, but you're so hot that I melted", time:15 },
   { text: "I fell right through the cracks", time: 19 },
   { text: "Now I'm trying to get back", time: 22 },
