@@ -27,7 +27,7 @@ var lyricsData = [
   { text: "There's no need to complicate", time: 105 },
   { text: "Our time is short", time: 109 },
   { text: "This is our fate, I'm yours", time: 112 },
- { text: " I'm yours", time: 115 },
+  { text: " I'm yours", time: 115 },
   { text: "Do, do, do, do you, but do you, do you, do, do, but do you want to come on", time: 118 },
   { text: "Scooch on over closer, dear?", time: 122 },
   { text: "And I will nibble your ear", time: 125 },
@@ -65,7 +65,7 @@ var lyricsData = [
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.time && time < line.time + 3
   );
 
   if (currentLine) {
