@@ -5,7 +5,8 @@ var lyrics = document.querySelector("#lyrics");
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
 { text: "Tqm, disfruta la cancion", time: 5 },
- 
+ { text: "Tqm, disfruta la cancion", time: 100},
+ { text: "Tqm, disfruta la cancion", time: 234},
   
  
 
